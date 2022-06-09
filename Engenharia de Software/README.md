@@ -17,3 +17,7 @@ Casos de uso
 Casos de uso
 
 ![foto](https://github.com/WesFerreira/Bertoti/blob/3f31e7e93fcf98d1934da43d9fd952ae0f04a53a/Engenharia%20de%20Software/N%C3%A3oFuncionais.png)
+
+# -Story Card
+
+![foto](https://github.com/WesFerreira/Bertoti/blob/b601128bb3b9d0452491aa20ace4fb8bc1fbd662/Engenharia%20de%20Software/StoryCard.png)
