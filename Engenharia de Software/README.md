@@ -6,7 +6,7 @@
 
 # REQUISITOS
 
-#-Funcionais
+# -Funcionais
 
 Casos de uso
 
