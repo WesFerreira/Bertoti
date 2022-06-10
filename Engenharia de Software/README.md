@@ -21,3 +21,7 @@ Casos de uso
 # -Story Card
 
 ![foto](https://github.com/WesFerreira/Bertoti/blob/b601128bb3b9d0452491aa20ace4fb8bc1fbd662/Engenharia%20de%20Software/StoryCard.png)
+
+# -Projeto de Sistemas
+
+![foto]
