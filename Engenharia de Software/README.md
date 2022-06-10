@@ -32,4 +32,4 @@ Casos de uso
 
 ![foto](https://github.com/WesFerreira/Bertoti/blob/bc717174dff2891912b165980fad12555e648102/Engenharia%20de%20Software/Professor1.png)
 
-![foto]()
+![foto](https://github.com/WesFerreira/Bertoti/blob/fadc4858fa40c307bc6c4f9210ef100848bc49fd/Engenharia%20de%20Software/ClassePlataformaDeEnsino.png)
