@@ -29,8 +29,6 @@ Segue alguns dos códigos que desenvolvi.
 
 <details>
   <summary> Cadastros com JavaScript </summary>
-    Código javascript com as funções para cadastrar um usuário na aplicação </br>
-  
   
   ```javascript
   
@@ -67,6 +65,21 @@ Segue alguns dos códigos que desenvolvi.
   
   ```
   
+ O código apresentado é uma função JavaScript que lida com o cadastro de usuários em um servidor local </br>
+    A função cadastrar() é definida para realizar uma requisição POST ao servidor local (http://localhost:8080/usuarios) usando o método fetch(). Essa função possui as seguintes configurações:
+
+Define o cabeçalho da requisição com o tipo de conteúdo aceito (Accept) e o tipo de conteúdo enviado (Content-Type) como JSON.
+Define o método da requisição como POST.
+Envia os dados do usuário como um objeto JSON no corpo da requisição usando JSON.stringify(). Os dados incluem nome, email e senha.
+O resultado da requisição é tratado por meio das funções then() e catch(). Se a requisição for bem-sucedida, o resultado é impresso no console usando console.log(res). Caso contrário, se ocorrer algum erro, também é exibido no console.
+
+A função limpar() é definida para limpar os campos de entrada após o cadastro. Ela define os valores dos campos Inome, Iemail e Isenha como vazios.
+
+Um "ouvinte de evento" é adicionado ao formulário usando addEventListener() para capturar o evento de envio (submit). A função de retorno de chamada é executada quando o evento ocorre. Essa função realiza as seguintes ações:
+
+Chama a função event.preventDefault() para evitar o envio tradicional do formulário.
+Chama a função cadastrar() para enviar os dados do usuário ao servidor.
+Chama a função limpar() para limpar os campos do formulário após o cadastro.
 </details>  
 
 
