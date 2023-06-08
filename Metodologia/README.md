@@ -17,9 +17,16 @@ Para atender aos requisitos não funcionais exigidos, o sistema deve ser capaz d
 O back-end da aplicação foi desenvolvido utilizando a linguagem Java em conjunto com o framework Spring Boot que é uma estrutura projetada para simplificar a criação de aplicativos web em Java, fornecendo um conjunto abrangente de ferramentas e bibliotecas que facilitam o desenvolvimento. A escolha do Java e do Spring Boot permitiu a construção eficiente do back-end da aplicação, aproveitando as vantagens e recursos oferecidos por essa poderosa combinação de tecnologias.
 
 ### PostgreSQL
+O banco de dados utilizado foi o PostgreSQL, um banco relacional no qual alocamos todos os dados meteorológicos, dados de estações e regiões. A escolha do Postgres se deu por conta de sua versatilidade, interface simplificada, e funcionalidades expostas de forma dedutiva, que facilitaram a usabilidade e gerenciamento do banco de dados. A sua alta eficiência e desempenho contribuiram para armazenar com tranquilidade os milhões de dados meteorológicos importados.
+
 ### HTML, CSS, JavaScript
+Para criar a interface gráfica da aplicação, foram combinadas as linguagens de marcação HTML e CSS com a linguagem de programação JavaScript. O HTML é responsável pela estrutura básica da página da web, enquanto o CSS define o estilo visual e a aparência da página. Já o JavaScript é utilizado para adicionar interatividade à página, permitindo que os usuários realizem ações e que os dados sejam exibidos e atualizados dinamicamente. Ao utilizar o HTML, CSS e JavaScript em conjunto, foi possível desenvolver uma interface amigável e intuitiva para os usuários da aplicação. Isso permite que eles visualizem os dados meteorológicos e gerem relatórios de forma fácil e eficiente. Além disso, a aplicação fez uso da biblioteca de JavaScript chamada Charts, que possibilitou a apresentação dos dados em forma de gráficos de maneira adequada.
 
 ## Contribuições pessoais
+No projeto em questão fiquei responsável pelo desenvolvimento do front-end da aplicação.
+
+Segue alguns dos códigos que desenvolvi.
+
 <details>
   <summary> Cadastros com JavaScript </summary>
     Código javascript com as funções para cadastrar um usuário na aplicação </br>
