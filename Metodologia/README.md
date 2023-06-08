@@ -90,57 +90,58 @@ Chama a função limpar() para limpar os campos do formulário após o cadastro.
 
 
 <details>
-  <summary> Recuperar senha com Javascript </summary>
-    Código javascript com as funções para recuperar um usuário na aplicação </br>
+  <summary> Requisição para obter o IP do cliente com Javascript </summary>
 
   ```javascript
   
-  function cadastrar(){
-    $(document).ready(function(){
-                $.getJSON("/usuarios",function(data){
-                    const inventory = data;
-                        function isCherries(fruit){
-                            return fruit.email === Iemail.value;
-                        }
-                        console.log(Iemail.value)
-                        var usuario = inventory.find(isCherries);
-                        senha = usuario.senha
-                        nome = usuario.nome
-                    console.log(usuario)
+$(function() {
+  $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+    function(json) {
+      const formulario = document.querySelector("unlog");
 
-    fetch("https://hook.us1.make.com/89g4gdx7rejvtsa6xcfwnmq0ixcjz5ee",
-    {
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        method: "POST",
-        body: JSON.stringify({
-            email: Iemail.value,
-            nome: nome,
-            senha: senha
+      function cadastrarLog(){
+
+        fetch("http://localhost:8080/log",
+          {
+          headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+          },
+          method: "POST",
+          body: JSON.stringify({
+              email: "email",
+              ip: json.ip,
+              status: "deslogado"
+          })
         })
-    })
-    .then(function(res) {console.log(res) })
-    .catch(function(res) {console.log(res) })
-    limpar();
-    });
-                });
-};
 
-function limpar(){
-    Iemail.value = "";
-}
+      .then(function(res) {console.log(res) })
+      .catch(function(res) {console.log(res) })
+      };
 
-formulario.addEventListener('submit', function(event){
+
+    unlog.addEventListener('submit', function(event){
     event.preventDefault();
-
-    cadastrar();
-    window.location.href("localhost:8080/login.html")
+    cadastrarLog();
+    });
+  });
 });
   
 ```
 
+A arquitetura desse código segue uma abordagem funcional, utilizando jQuery para fazer uma requisição assíncrona para obter o endereço IP do cliente por meio da API "https://api.ipify.org".
+
+O código envolve a função "$()" para garantir que o código seja executado somente após o carregamento completo da página. Em seguida, é feita uma chamada à função $.getJSON() para obter o endereço IP.
+
+Dentro da função de retorno de chamada da $.getJSON() o código define uma função chamada cadastrarLog(), que é executada quando o formulário "unlog" é submetido. Essa função realiza uma requisição POST para "http://localhost:8080/log" para registrar o evento de deslogamento do usuário.
+
+Os dados são enviados como um objeto JSON no corpo da requisição, contendo o email, o endereço IP obtido anteriormente e o status "deslogado".
+
+Após a requisição POST, são tratadas as respostas da promessa utilizando os métodos .then() e .catch(), que registram o resultado no console.
+
+Por fim, o código adiciona um evento de escuta ao formulário "unlog", que é acionado quando o formulário é submetido. O evento é prevenido de realizar a ação padrão e, em vez disso, chama a função cadastrarLog().
+
+A arquitetura desse código é relativamente simples, fazendo uso de bibliotecas externas (jQuery) e APIs para obter informações do cliente e registrar eventos no servidor. O objetivo é registrar o deslogamento do usuário, capturando o email e o endereço IP, e enviando esses dados para o servidor por meio de uma requisição POST.  
 </details>
 
 ## Aprendizado efetivo
