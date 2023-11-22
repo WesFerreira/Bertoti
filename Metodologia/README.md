@@ -1,12 +1,64 @@
 # Wesley Ferreira da Silva
 
 ## Introdução
-Olá, sou o Wesley Ferreira da Silva, graduando do 4º semestre de Banco de Dados pela FATEC - Prof. Jessen Vidal.
+Olá, sou o Wesley Ferreira da Silva, graduando do 5º semestre de Banco de Dados pela FATEC - Prof. Jessen Vidal.
 Segue descrição do projeto realizado para a IACIT no 3º Semestre da faculdade.
 
-## Projeto 3º Semestre
+<details>  
+  <summary> Projeto 1º Semestre </summary>
 
-### Empresa Parceira: IACIT Soluções tecnológicas S.A.
+  ## Introdução
+  Segue descrição do projeto realizado para a FATEC no 1º Semestre da faculdade.
+
+  ### Empresa Parceira: FATEC (PROJETO INTERNO)
+
+## Descrição do projeto
+
+## Técnologias usadas
+### Python
+
+
+## Contribuições pessoais
+
+
+## Aprendizado efetivo
+  
+</details>
+
+<details>  
+  <summary> Projeto 2º Semestre </summary>
+
+  ## Introdução
+  Segue descrição do projeto realizado para a DOM ROCK no 2º Semestre da faculdade.
+
+  ### Empresa Parceira: DOM ROCK
+
+## Descrição do projeto
+
+## Técnologias usadas
+### Java
+A aplicação foi desenvolvido utilizando a linguagem Java e desenvolvendo projeto desktop. A escolha do Java permitiu a construção eficiente da aplicação, aproveitando as vantagens e recursos oferecidos.
+
+### PostgreSQL
+Utilizamos o PostgreSQL como banco de dados para alocar e gerenciar todos os dados referente as etapas dos processos de cadastros e separação de categoria. Optamos pelo PostgreSQL devido à sua versatilidade, interface simplificada e funcionalidades expostas de forma dedutiva, o que proporcionou uma excelente usabilidade e facilitou o gerenciamento do banco de dados. Além disso, a escolha do PostgreSQL foi impulsionada pela sua alta eficiência e desempenho, permitindo o armazenamento tranquilo e eficaz dos milhões de dados importados. A capacidade do PostgreSQL de lidar com grandes volumes de dados e seu suporte a consultas complexas foram fundamentais para garantir o processamento rápido e preciso das informações.
+
+
+## Contribuições pessoais
+
+
+## Aprendizado efetivo
+
+</details>
+  
+</details>
+
+<details>  
+  <summary> Projeto 3º Semestre </summary>
+
+  ## Introdução
+  Segue descrição do projeto realizado para a IACIT no 3º Semestre da faculdade.
+
+  ### Empresa Parceira: IACIT Soluções tecnológicas S.A.
 
 ## Descrição do projeto
 Foi proposto o desenvolvimento de um sistema que atenda aos seguintes requisitos funcionais: cadastro de estações, cadastro de estados e regiões, importação de dados meteorológicos de arquivos CSV fornecidos pela empresa IACIT e geração de relatórios. Além disso, o sistema precisa ser uma aplicação web com interface amigável, implementada em linguagem Java e utilizar um banco de dados relacional.
@@ -159,4 +211,29 @@ A arquitetura desse código é relativamente simples, fazendo uso de bibliotecas
     - Manipulação de variáveis com JavaScript </br>
 </details>
 
+
+</details>
+
+<details>  
+  <summary> Projeto 4º Semestre </summary>
+
+   ## Introdução
+  Segue descrição do projeto realizado para a EMBRAER no 4º Semestre da faculdade.
+
+  ### Empresa Parceira: EMBRAER
+
+## Descrição do projeto
+
+## Técnologias usadas
+### Java
+### Vue.js
+### Oracle Cloud
+
+
+## Contribuições pessoais
+
+
+## Aprendizado efetivo
+
+</details>
 
