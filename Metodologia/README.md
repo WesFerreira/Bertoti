@@ -2,7 +2,7 @@
 
 ## Introdução
 Olá, sou o Wesley Ferreira da Silva, graduando do 5º semestre de Banco de Dados pela FATEC - Prof. Jessen Vidal.
-Segue descrição do projeto realizado para a IACIT no 3º Semestre da faculdade.
+Segue descrições dos projetos realizados em cada semestre da faculdade.
 
 <details>  
   <summary> Projeto 1º Semestre </summary>
@@ -13,16 +13,22 @@ Segue descrição do projeto realizado para a IACIT no 3º Semestre da faculdade
   ### Empresa Parceira: FATEC (PROJETO INTERNO)
 
 ## Descrição do projeto
-
+O projeto proposto pela facudade, visa analisar os dados oficiais da COVID-19 no Estado de São Paulo e apresentá-los de maneira clara e contextualizada aos usuários, por meio de visualizações gráficas e/ou não-gráficas.
 ## Técnologias usadas
 ### Python
-
+Python foi a escolha predominante para o desenvolvimento da aplicação devido à sua sintaxe clara, simplificada e sua vasta gama de bibliotecas e frameworks que suportam diversas áreas, incluindo análise de dados. Sua simplicidade, versatilidade e suporte facilitaram significativamente o processo de criação do projeto. Uma das bibliotecas que mais utilizamos no projeto foi a do Pandas que nos fornece ferramentas para análise e manipulação de dados, que no nosso projeto foi manipulado os dados por csv.
 
 ## Contribuições pessoais
 
 
 ## Aprendizado efetivo
-  
+<details>
+  <summary> Programação </summary>
+    - Desenvolvimento de aplicação desktop </br>
+    - Manipulação de dados </br>
+    - Gerar gráficos </br>
+</details>
+
 </details>
 
 <details>  
