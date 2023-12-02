@@ -346,10 +346,18 @@ A arquitetura desse código é relativamente simples, fazendo uso de bibliotecas
 ## Descrição do projeto
 
 ## Técnologias usadas
-### Java
-### Vue.js
-### Oracle Cloud
+### Java e Spring
+A infraestrutura de back-end da aplicação foi construída integralmente em Java, aproveitando as vantagens oferecidas pelo robusto framework Spring Boot. Esta escolha estratégica permitiu aos desenvolvedores a agilidade e praticidade necessárias para a criação de aplicativos web em Java, graças ao conjunto abrangente de ferramentas e bibliotecas disponibilizadas pelo Spring Boot.
 
+Dentro desse contexto, o Spring e o Spring Data foram utilizados para desenvolver a lógica das regras de negócio. Essa lógica foi essencial para determinar o status dos itens, classificando-os como instalados, instaláveis ou não instaláveis com base nos chassis pesquisados. O uso do Spring Data possibilitou consultas otimizadas ao banco de dados, garantindo uma eficiência significativa no tratamento das lógicas e condições no back-end.
+
+Essa abordagem reforça não apenas a utilização da linguagem Java para a construção do back-end, mas também destaca a aplicação estratégica do framework Spring, capacitando a aplicação a executar suas funções de maneira eficaz, ágil e com uma gestão eficiente das regras de negócio.
+### Vue.js
+Para o front-end do sistema, adotamos o Vue.js, um framework JavaScript que se destaca pela sua estrutura baseada na criação de componentes reutilizáveis. Essa abordagem arquitetural facilitou significativamente o desenvolvimento da plataforma, especialmente devido à semelhança entre determinadas partes visuais da interface.
+
+O Vue.js é reconhecido como um framework progressivo de código aberto para o desenvolvimento web. Sua arquitetura centrada em componentes oferece uma abordagem modular que simplifica a construção de aplicativos complexos de maneira eficiente. Essa escolha não apenas facilitou a criação da interface, mas também possibilitou uma estrutura flexível e adaptável para o desenvolvimento contínuo da plataforma.
+### Oracle Cloud
+Para o armazenamento de dados, nossa escolha recaiu sobre o Oracle Autonomous Database, um banco de dados relacional baseado na nuvem. Optamos por esse sistema devido à sua capacidade de ser acessado pela internet, o que proporcionou uma acessibilidade, praticidade e flexibilidade excepcionais para consulta dos dados. Além disso, sua robusta estrutura ofereceu um nível elevado de segurança, não apenas controlando o acesso ao banco, mas também garantindo a consistência dos dados por meio de backups automáticos, mitigando perdas e simplificando a recuperação em casos de falhas operacionais.
 
 ## Contribuições pessoais
 
