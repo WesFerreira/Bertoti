@@ -111,10 +111,6 @@ Python foi a escolha predominante para o desenvolvimento da aplicação devido �
 <details>
   <summary>Mostrando dados específicos para o usuário</summary>
 
-- São trechos que calculam o total de mortes e casos confirmados no estadono de São Paulo. Ele acessa um DataFrame chamado df dentro da classe chamada tracker e calcula a soma da coluna 'mortes' e 'confirmados'.
-
-- As linhas subsequentes estão criando labels (QLabel) para exibir esses valores em uma interface gráfica. Cada uma dessas labels (mortes, mortes_dia, mortes_sp, total_confirmados) mostra uma mensagem descritiva concatenada com o valor correspondente, que será exibido na interface gráfica.
-
   ```python
 
  """Calcula a data atual - 1 para saber a quantidade de novas mortes """
