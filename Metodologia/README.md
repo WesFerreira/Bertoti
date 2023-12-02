@@ -24,6 +24,12 @@ Python foi a escolha predominante para o desenvolvimento da aplicação devido �
 <details>
   <summary>Rastreador de dados de um arquivo CSV</summary>
 
+- Verifica se um arquivo CSV (caso_full.csv) está presente em um diretório específico. Se não estiver, chama uma função atualizar() do módulo update.
+- Lê o arquivo CSV em um DataFrame do Pandas (pd), renomeia as colunas e faz várias manipulações nos dados.
+- Cria várias variáveis com diferentes valores extraídos do DataFrame, como total de mortes em São Paulo, novos casos, total de mortes em novembro, listas de cidades, anos e meses.
+- Gera um novo DataFrame chamado df com as operações e filtros.
+- Imprime o DataFrame resultante.
+
   ```python
 
   class tracker:
