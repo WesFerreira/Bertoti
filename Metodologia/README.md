@@ -151,7 +151,11 @@ Python foi a escolha predominante para o desenvolvimento da aplicação devido �
   ### Empresa Parceira: DOM ROCK
 
 ## Descrição do projeto
+O projeto em questão almeja criar uma plataforma robusta para ativação e gestão de clientes, focalizada na otimização do uso dos recursos oferecidos pela empresa. Essa iniciativa visa integrar telas de cadastro que alimentam um banco de dados central, armazenando informações cruciais para a personalização e ativação dos clientes na plataforma Dom Rock. A estratégia concentra-se na entrada precisa de dados, considerando parâmetros específicos de cada cliente para alocar os recursos de forma eficiente.
 
+Além disso, a abordagem adotada contempla a avaliação criteriosa do consumo esperado de recursos, levando em conta variáveis como o volume de dados a serem manipulados e o número de usuários envolvidos. Isso se traduz na estimativa acurada dos recursos necessários para cada cliente, garantindo uma alocação adequada e maximizando a utilização dos recursos disponíveis.
+
+Para complementar, o sistema é desenvolvido para gerar relatórios detalhados e oferecer consultas facilitadas, fornecendo insights valiosos sobre o uso dos recursos e o desempenho dos clientes na plataforma. Essa solução integral não só simplifica a ativação dos clientes, mas também permite uma administração eficiente e informada dos recursos da empresa na plataforma Dom Rock.
 ## Técnologias usadas
 ### Java
 A aplicação foi desenvolvido utilizando a linguagem Java e desenvolvendo projeto desktop. A escolha do Java permitiu a construção eficiente da aplicação, aproveitando as vantagens e recursos oferecidos.
